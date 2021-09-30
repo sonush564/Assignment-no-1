@@ -1,0 +1,124 @@
+
+.container{
+    width: 2000px;
+    height: 1200px;
+    display: flex;
+    position: relative;
+    background-image: url('./ff.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.container>div{
+ 
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+   
+
+}
+#more{
+    position: relative;
+    display: inline;
+
+}
+
+#morem{
+    display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   
+  opacity: 0.5;
+}
+#more:hover #morem {display: block;}
+.leftcon{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 400px;
+    color: black;
+    margin-right: 40px;
+    
+ 
+}
+.leftcon>div{
+ 
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+   
+
+}
+#up{
+    font-weight:900;
+    font-size: xx-large;
+    position:absolute;
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    left: 200px;
+    top: 250px
+}
+.search-bar {
+    overflow: hidden;
+  }
+  
+ 
+  .search-bar .search-container {
+    float: right;
+  }
+  
+  .search-bar input[type=text] {
+    padding: 6px;
+    margin-top: 80px;
+    font-size: 17px;
+    border: none;
+    width: 500px;
+  }
+  
+  .search-bar .search-container button {
+    float: right;
+    padding: 6px;
+    margin-top: 80px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar .search-container button:hover {
+    background: #ccc;
+  }
+  h1{
+      text-align: center;
+      width: 120px;
+      height: 200px;
+      font-size: xx-large;
+     
+
+  }
+#p{
+    
+    width: 1900px;
+    height:auto;
+    padding: 15px;
+    position: absolute;
+    bottom: 0px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+
+
+  #footerPan{width:2000px; height:107px; background: rgb(100, 100, 212); color:#fff; position:relative; margin:0 auto;   clear:both; padding:26px 0 0;}
+  #footerPan ul{width: 1000px; position:relative; margin: auto; font-size: xx-large;}
+#footerPan li{float:left; margin: 20px; }
+#footerPan ul li a{padding:0 10px 0; color:#fff; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#footerPan p.copyright{width:204px; color:#fff; position:absolute; top:48px; left:198px; font-size:12px;}
